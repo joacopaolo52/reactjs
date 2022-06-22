@@ -1,0 +1,48 @@
+h1 {
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #ffffff, 0 0 15px #FFF, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 55px red, 0 0 75px red;
+}
+
+h1:hover {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    margin-top: 0;
+    width: auto;
+}
+.navbar-nav {
+    padding: 1rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    background-color: black;
+    box-shadow: 1px 12px 12px 7px rgba(255, 255, 255, 0.575); 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.nav-link {
+    font-size: 25px ;
+    color: white;
+    font-weight: bold !important;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.nav-link:hover {
+    text-shadow: 0 0 5px #FFF, 0 0 10px #ffffff, 0 0 15px #FFF, 0 0 20px red, 0 0 30px red, 0 0 40px red, 0 0 55px red, 0 0 75px red;
+}
