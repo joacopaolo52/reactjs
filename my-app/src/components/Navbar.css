@@ -25,6 +25,8 @@ a {
     padding: 0;
     margin-top: 0;
     width: auto;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .navbar-nav {
     padding: 1rem;
@@ -34,6 +36,7 @@ a {
     box-shadow: 1px 12px 12px 7px rgba(255, 255, 255, 0.575); 
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 0;
 }
 .nav-link {
     font-size: 25px ;
